@@ -1,0 +1,49 @@
+body {
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#promo {
+  margin-top:50px;
+  text-align:center;
+  padding:40px;
+  background:url(../../assets/img/large_truly-tokyo.jpg)no-repeat;
+  background-size:cover;
+}
+
+#promo .jumbotron {
+  border-radius:20px;
+  padding:40px;
+  background-color:rgba(255,255,255,0.7);
+  max-width:800px;
+  margin:0 auto;
+}
+
+@media (max-width: 767px) {
+  #promo .jumbotron {
+    padding:20px;
+  }
+}
+
+@media (max-width: 767px) {
+  #promo {
+    padding:20px;
+  }
+}
+
+.site-section {
+  text-align:center;
+  padding:60px;
+}
+
+#welcome p {
+  max-width:800px;
+  font-size:20px;
+  margin:0 auto;
+}
+
+.site-section h1 {
+  margin-bottom:30px;
+  font-weight:normal;
+  font-size:60px;
+}
+
