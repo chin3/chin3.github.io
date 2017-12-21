@@ -113,3 +113,18 @@ div.social-links {
   margin-bottom:5px;
 }
 
+#mainpic {
+  background-image:url(../../assets/img/Kinkaku_Snow_E4.jpg);
+  margin-top:50px;
+  padding:40px;
+  text-align:center;
+  background-size:cover;
+  margin:0 auto;
+}
+
+@media (max-width: 991px) {
+  #mainpic {
+    padding:5px;
+  }
+}
+
